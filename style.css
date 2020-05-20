@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.titulo{
+	font-family: 'calibri';
+	font-size:100px; 
+	color: transparent;
+	-webkit-text-stroke:1.5px white;
+}
+
+body{
+	font-family: 'arial';
+	background-image: url('stream3.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#texto a{
+	color: white;
+	text-decoration: none;
+}
+
+#texto a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+#texto{
+	/*font-weight: bold;*/
+	font-size: 25px;
+	color: white;
+	background-color: none;
+	width: 100%;
+	text-align: left;
+	/*line-height: 30px;*/
+}
+
+#tablita{
+	margin: 10px auto;
+	width: 600px
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,td{
+	padding: 10px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+#form{
+	width: 400px;
+	background: #24303c;
+	padding:30px;
+
+	margin: auto;
+	margin-top: 100px;
+
+	border-radius: 4px;
+	color:white;
+	box-shadow: 7px 13px 37px #000;
+}
+
+#form h2{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.controls{
+	width: 100%;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border:1px solid #1f53c5;
+}
+#form .botons{
+	width: 100%;
+	background: #1f53c5;
+	border:none;
+	padding: 10px;
+	color: white;
+	margin: 16px 0;
+	font-size: 14px;
+
+}
+
+#form .botons:hover{
+	background-color: none;
+	color: white;
+	text-decoration: underline;
+
+}
